@@ -1,10 +1,10 @@
-#PAMETNI POZIVNIK
+# PAMETNI POZIVNIK
 Namen projekta je narediti pametni gasilski pozivnik, za alarmiranje gasilcev ob gasilski intervenciji. Projekt obsega fizični radijski sprejemnik, ki prejme poziv in ga posreduje mobilni aplikaciji. Ta na podlagi nastavitev, ki jih nastavi gasilec, oblikuje obvestilo o pozivu.
 
-##Akterji
+## Akterji
 Sistem v osnovi uporabljata dva akterja. Prvi je Regijski center za obveščanje. Ta ob intervenciji po radijski zvezi pošlje poziv gasilcem. Drugi akter je gasilec ki poziv prejme v obliki obvestila na mobilni napravi. Poleg tega lahko nastavi v kakšni obliki dobi poziv (utišanje opozoril za določen čas, geofence za prejemanje pozivov le v domačem kraju, ...).
 
-##Aktivnosti
+## Aktivnosti
 Aktivnosti sistema so sledeče:
 - Alarmiranje gasilca: sistem prejme poziv po radijski zvezi, katerega izda Regijski center za obveščanje
 - Obveščanje gasilca: gasilec na svoji mobilni napravi prejme obvestilo o pozivu
