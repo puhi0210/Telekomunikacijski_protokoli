@@ -42,7 +42,7 @@ our_keys_r = []
 
 # Ločevanje ključev ki vsebujejo črko "r"
 for i in range(len(our_keys)):
-    if our_keys[i].lower().find("r") != -1:
+    if our_keys[i].lower ().find("r") != -1:
         our_keys_r.append(our_keys[i])
         
 print(our_keys_r)
