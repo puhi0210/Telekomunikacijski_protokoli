@@ -14,3 +14,7 @@ Aktivnosti sistema so sledeče:
 - Preverjanje nastavitev: aplikacija oblikuje obvestilo na podlagi nastavitev, lokacije, ure, ...
 - Nastavljeanje lokacije: v applikaciji nastavimo lokacijo gasilske ga doma in največji radij v okolici doma, v kateri želimo prejeti poziv
 - Nastavljanje urnika: v aplikaciji nastavimo, kdaj ne želimo prejeti obvestila (npr.: v času službe)
+
+## Viri
+Naslovi spletnih strani, uporabljenih za črpanje virov.
+- Dekodiranje POCSAG z RTL-SDR: https://www.rtl-sdr.com/rtl-sdr-tutorial-pocsag-pager-decoding/
