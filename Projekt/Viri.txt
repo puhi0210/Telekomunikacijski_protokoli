@@ -1,0 +1,4 @@
+
+Naslovi spletnih strani, za črpanje virov.
+
+- Dekodiranje POCSAG: https://www.rtl-sdr.com/rtl-sdr-tutorial-pocsag-pager-decoding/
