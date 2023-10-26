@@ -1,0 +1,26 @@
+@startuml
+
+' PAMETNI POZIVNIK - Use Case Diagram '
+
+actor "Gasilec" as gasilec
+actor "Regijski center za obveščanje" as reco
+
+package PametniPozivnik {
+usecase "Alarmiranje gasilca" as alarmiranje
+usecase "Preverjanje nastavitev" as preverjanje
+usecase "Obveščanje gasilca" as obvescanje
+usecase "Nastavljanje lokacije" as nastavljanjeL
+usecase "Nastavljanje urnika" as nastavljanjeU
+}
+
+reco -> alarmiranje
+gasilec -> obvescanje
+gasilec -> nastavljanjeL
+gasilec -> nastavljanjeU
+
+alarmiranje --> preverjanje
+nastavljanjeU --> preverjanje
+nastavljanjeL --> preverjanje
+preverjanje --> obvescanje
+
+@enduml
