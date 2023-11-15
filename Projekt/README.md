@@ -19,3 +19,4 @@ Aktivnosti sistema so sledeče:
 Naslovi spletnih strani, uporabljenih za črpanje virov.
 - Dekodiranje POCSAG z RTL-SDR: https://www.rtl-sdr.com/rtl-sdr-tutorial-pocsag-pager-decoding/
 - Sending a message from Raspberry PI to Android device using Bluetooth: https://raspberrypi.stackexchange.com/questions/71149/sending-a-message-from-raspberry-pi-to-android-device-using-bluetooth
+- Dekodiranje POCSAG z Raspberry Pi: https://github.com/cmar0ck/RasPOC
