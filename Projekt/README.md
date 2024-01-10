@@ -11,7 +11,7 @@ OPOZORILO!: Python skripta še ni preizkušena z log datoteko programa PWR, kar 
 - [Viri](#viri)
 
 ## Use case diagram <a name="uml"></a>
-![Usecase diagram pametnega pozivnika](Projekt\images\UseCaseDiagram.png)
+![Usecase diagram pametnega pozivnika](Projekt/images/UseCaseDiagram.png)
 
 ### Akterji <a name="akterji"></a>
 Sistem v osnovi uporabljata dva akterja. Prvi je Regijski center za obveščanje. Ta ob intervenciji po radijski zvezi pošlje poziv gasilcem. Drugi akter je gasilec ki poziv prejme v obliki obvestila na mobilni napravi. Tretji akrter je socialno omrežje Telegram, ki iz strani strežnika prejeto sporočilo posreduje gasilcu.
@@ -26,16 +26,16 @@ Aktivnosti sistema so sledeče:
 Projekt sem izvedel s pomočjo SDR sprejemnika priključenega na osebni računalnik. Za FM demodulacijo signala iz SDR vmesnika sem uporabil SDRSharp/Airspy, ki sem ga s pomočjo programa Voicemeeter pretvoril v virtualni Aux vhod. Tako sem baseband signala pripeljal na PDW Paging Decoding Software. Ko PDW dekodira POCSAG sporočilo ga zapiše v .log datoteko. Python skripta deluje tako, da zaznava spremembe log datoteke, ki jih interpretira kot nove pozive. Te nato preko HTTP request-a pošlje sporočilo Telegram Botu.
 
 SDR vmesnik:
-![SDR vmesnik](Projekt\images\sdr.jpg)
+![SDR vmesnik](Projekt/images/sdr.jpg)
 
 SDRSharp:
-![SDRSharp](Projekt\images\sdrsharp.png)
+![SDRSharp](Projekt/images/sdrsharp.png)
 
 PDW Paging Decoder Software:
-![SDRSharp](Projekt\images\pdw.png)
+![SDRSharp](Projekt/images/pdw.png)
 
 Prejem sporočila na telegram:
-![SDRSharp](Projekt\images\telegram.png)
+![SDRSharp](Projekt/images/telegram.png)
 
 ## Viri <a name="viri"></a>
 Programska oprema: 
